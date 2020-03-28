@@ -1,6 +1,16 @@
-# ProtonVPN-CLI 
+# Linux Admin 
 
-### List of all Commands
+
+
+## ProtonVPN-CLI
+
+First, install ProtonVPN client and initialize: 
+
+https://github.com/ProtonVPN/protonvpn-cli-ng/blob/master/USAGE.md
+
+https://protonvpn.com/support/linux-vpn-tool/
+
+#### List of all Commands
 
 | **Command**                      | **Description**                                       |
 | -------------------------------- | ----------------------------------------------------- |
@@ -21,11 +31,7 @@
 | `protonvpn --version`            | Display version.                                      |
 | `protonvpn --help`               | Show help message.                                    |
 
-
-
-## Auto-connect on boot
-
-#### via Systemd Service
+#### Auto-connect on boot via Systemd Service
 
 Systemd is the current init system of most major Linux distributions. This guide shows you how to use systemd to automatically connect to a  ProtonVPN Server when you boot up your system.
 
