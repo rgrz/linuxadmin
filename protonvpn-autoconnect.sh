@@ -22,9 +22,9 @@ Restart=always
 WantedBy=multi-user.target
 EOF
 
-sudo chmod +x /etc/systemd/system/protonvpn-autoconnect.service
+# sudo chmod +x /etc/systemd/system/protonvpn-autoconnect.service
 
-sudo systemctl daemon-reload
+# sudo systemctl daemon-reload
 
 # sudo systemctl enable protonvpn-autoconnect.service
 
